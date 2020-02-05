@@ -11,7 +11,7 @@ body {
   font-family: 'Raleway', 'sans-serif';
   font-size: 1rem;
   line-height: 1.6;
-  background-color: white;
+  background-color: #fff;
   color: #333;
 }
 
@@ -54,5 +54,24 @@ img {
     &:hover {
       color: $primary-color;
     }
+  }
+}
+
+// Landing
+.landing {
+  position: relative;
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+
+  &-inner {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
